@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="es-PY">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4ec">
+  <meta name="robots" content="noindex, follow">
+  <meta name="description" content="Biocons Arquitectos. Estudio de arquitectura y construcción en Asunción, Paraguay. Viviendas, reformas y proyectos pensados para su entorno.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Biocons Arquitectos | Arquitectura que nace del lugar">
+  <meta property="og:description" content="Conocé el portafolio de Biocons y su enfoque de arquitectura y construcción en Paraguay.">
+  <meta property="og:image" content="https://thiago15da.github.io/pruebas/assets/ciervo.webp">
+  <title>Biocons Arquitectos | Arquitectura que nace del lugar</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <svg class="symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="diagonal" viewBox="0 0 24 24"><path d="M6 18 18 6M7 6h11v11"/></symbol>
+    <symbol id="down" viewBox="0 0 24 24"><path d="M12 5v14m-6-6 6 6 6-6"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/></symbol>
+    <symbol id="pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11s-8-6-8-11a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+  </svg>
+  <a class="skip" href="#contenido">Ir al contenido</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#inicio" aria-label="Biocons Arquitectos, inicio"><img src="assets/biocons.png" width="254" height="76" alt="Biocons Arquitectura / Urbanismo"></a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="navigation" hidden><svg><use href="#menu"/></svg></button>
+      <nav id="navigation" aria-label="Navegación principal">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#enfoque">Enfoque</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#estudio">Estudio</a>
+        <a class="nav-contact" href="#contacto">Hablemos <svg aria-hidden="true"><use href="#diagonal"/></svg></a>
+      </nav>
+    </div>
+  </header>
+  <main id="contenido">
+    <section class="hero wrap" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true">
+        <img class="hero-image" id="hero-image" src="assets/ciervo.webp" width="1376" height="768" alt="" fetchpriority="high">
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow"><span></span> Arquitectura y construcción en Paraguay</p>
+        <h1 id="hero-title">Arquitectura que<br>nace del <em>lugar.</em></h1>
+        <p class="hero-copy">Diseñamos y construimos espacios que responden al paisaje, al clima y a tu manera de habitar.</p>
+        <a class="button button-accent" href="#proyectos">Explorar proyectos <svg aria-hidden="true"><use href="#down"/></svg></a>
+      </div>
+      <div class="hero-bottom">
+        <a id="hero-project" class="hero-project" href="#ciervo">
+          <span class="eyebrow">Proyecto en portada</span>
+          <span id="hero-project-name">Casa en Ciervo Kua <svg aria-hidden="true"><use href="#diagonal"/></svg></span>
+        </a>
+        <div class="hero-controls" hidden>
+          <span class="eyebrow slide-number" aria-live="polite"><b id="slide-current">01</b> / 03</span>
+          <button class="round previous" type="button" aria-label="Proyecto anterior en portada"><svg aria-hidden="true"><use href="#arrow"/></svg></button>
+          <button class="round next" type="button" aria-label="Proyecto siguiente en portada"><svg aria-hidden="true"><use href="#arrow"/></svg></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section work" id="proyectos" aria-labelledby="work-title">
+      <p class="eyebrow section-kicker"><span>01</span> Portafolio</p>
+      <div class="section-heading">
+        <h2 id="work-title">Proyectos <em>seleccionados.</em></h2>
+        <p>Viviendas, reformas y edificios que muestran cómo cambian las decisiones de diseño según el lugar y las necesidades de cada proyecto.</p>
+      </div>
+      <div class="work-tools" hidden>
+        <div class="filters" role="group" aria-label="Filtrar proyectos">
+          <button type="button" aria-pressed="true" data-filter="todos">Todos</button>
+          <button type="button" aria-pressed="false" data-filter="vivienda">Viviendas</button>
+          <button type="button" aria-pressed="false" data-filter="reforma">Reformas</button>
+          <button type="button" aria-pressed="false" data-filter="edificio">Edificios</button>
+        </div>
+        <p class="eyebrow" id="project-count" role="status">06 proyectos</p>
+      </div>
+      <div class="project-grid">
+        <article class="project" id="ciervo" data-category="vivienda" data-area="170 m²" data-description="Una casa de fin de semana cerca de San Bernardino, concebida entre los árboles existentes. Las bóvedas y los parasoles de ladrillo filtran la luz y acompañan la ventilación natural.">
+          <a class="project-link" href="https://www.biocons.com.py/V1/casa-de-fin-de-semana-en-ciervo-kua-san-bernardino/" data-project-link="ciervo">
+            <div class="project-photo">
+              <img src="assets/ciervo.webp" width="900" height="630" alt="Interior abovedado de ladrillo con luz filtrada hacia el comedor" loading="lazy" decoding="async">
+              <span class="project-tag eyebrow">Vivienda</span>
+            </div>
+            <div class="project-meta">
+              <span class="eyebrow project-index">01</span>
+              <div><h3>Casa en Ciervo Kua</h3><p class="project-location">Ciervo Kua, Cordillera</p></div>
+              <span class="round" aria-hidden="true"><svg><use href="#diagonal"/></svg></span>
+            </div>
+          </a>
+        </article>
+        <article class="project" id="cauce" data-category="vivienda" data-area="210 m²" data-description="La casa se organiza a lo largo de una vaguada formada por el agua de lluvia. El estar y la galería se ubican junto al cauce para acercar la vida cotidiana a la vegetación del terreno.">
+          <a class="project-link" href="https://www.biocons.com.py/V1/casa-sobre-el-cauce/" data-project-link="cauce">
+            <div class="project-photo">
+              <img src="assets/cauce.webp" width="900" height="630" alt="Vista frontal de la vivienda entre árboles en Surubí’i" loading="lazy" decoding="async">
+              <span class="project-tag eyebrow">Vivienda</span>
+            </div>
+            <div class="project-meta">
+              <span class="eyebrow project-index">02</span>
+              <div><h3>Casa del cauce</h3><p class="project-location">Surubí’i, Mariano Roque Alonso</p></div>
+              <span class="round" aria-hidden="true"><svg><use href="#diagonal"/></svg></span>
+            </div>
+          </a>
+        </article>
+        <article class="project" id="piribebuy" data-category="vivienda" data-area="120 m²" data-description="Sobre un barranco junto al río Piribebuy, una plataforma elevada reúne los espacios principales y abre la vivienda hacia el paisaje.">
+          <a class="project-link" href="https://www.biocons.com.py/V1/casa-palafito-en-el-piri/" data-project-link="piribebuy">
+            <div class="project-photo">
+              <img src="assets/piribebuy.webp" width="900" height="630" alt="Vista aérea del proyecto de vivienda elevado sobre la ribera" loading="lazy" decoding="async">
+              <span class="project-tag eyebrow">Vivienda</span>
+            </div>
+            <div class="project-meta">
+              <span class="eyebrow project-index">03</span>
+              <div><h3>Casa palafito sobre el Piribebuy</h3><p class="project-location">Emboscada, Cordillera</p></div>
+              <span class="round" aria-hidden="true"><svg><use href="#diagonal"/></svg></span>
+            </div>
+          </a>
+        </article>
+        <article class="project" id="nazareth" data-category="reforma" data-area="90 m² + 96 m²" data-description="La intervención transforma una antigua casona de un barrio tradicional asunceno en dos viviendas pareadas.">
+          <a class="project-link" href="https://www.biocons.com.py/V1/reforma-en-barrio-nazareth-1-2/" data-project-link="nazareth">
+            <div class="project-photo">
+              <img src="assets/nazareth.webp" width="900" height="630" alt="Muro de ladrillo perforado y vegetación de la reforma en Nazareth" loading="lazy" decoding="async">
+              <span class="project-tag eyebrow">Reforma</span>
+            </div>
+            <div class="project-meta">
+              <span class="eyebrow project-index">04</span>
+              <div><h3>Reforma en barrio Nazareth</h3><p class="project-location">Nazareth, Asunción</p></div>
+              <span class="round" aria-hidden="true"><svg><use href="#diagonal"/></svg></span>
+            </div>
+          </a>
+        </article>
+        <article class="project" id="altos" data-category="vivienda" data-area="160 m²" data-description="Dos viviendas de una planta organizan sus ambientes alrededor de un área social abierta y vinculada con el jardín.">
+          <a class="project-link" href="https://www.biocons.com.py/V1/2-chalets-pareados-en-altos/" data-project-link="altos">
+            <div class="project-photo">
+              <img src="assets/altos.webp" width="900" height="630" alt="Chalets de una planta con amplias aberturas hacia el jardín" loading="lazy" decoding="async">
+              <span class="project-tag eyebrow">Vivienda</span>
+            </div>
+            <div class="project-meta">
+              <span class="eyebrow project-index">05</span>
+              <div><h3>Chalets pareados en Altos</h3><p class="project-location">Altos, Cordillera</p></div>
+              <span class="round" aria-hidden="true"><svg><use href="#diagonal"/></svg></span>
+            </div>
+          </a>
+        </article>
+        <article class="project" id="brisas" data-category="edificio" data-area="1.360 m²" data-description="Un edificio residencial entre medianeras combina hormigón visto, ladrillo y metal. Los patios y retiros permiten llevar luz y aire a las unidades.">
+          <a class="project-link" href="https://www.biocons.com.py/V1/edificio-multifamiliar-brisas-de-bahia-2/" data-project-link="brisas">
+            <div class="project-photo">
+              <img src="assets/brisas.webp" width="900" height="630" alt="Perspectiva del edificio Brisas de Bahía II entre árboles" loading="lazy" decoding="async">
+              <span class="project-tag eyebrow">Edificio</span>
+            </div>
+            <div class="project-meta">
+              <span class="eyebrow project-index">06</span>
+              <div><h3>Brisas de Bahía II</h3><p class="project-location">Las Mercedes, Asunción</p></div>
+              <span class="round" aria-hidden="true"><svg><use href="#diagonal"/></svg></span>
+            </div>
+          </a>
+        </article>
+      </div>
+      <div class="work-end"><a class="text-link" href="https://www.biocons.com.py/V1/cat/portfolio/" target="_blank" rel="noopener">Ver portafolio completo de Biocons <svg aria-hidden="true"><use href="#diagonal"/></svg></a></div>
+    </section>
+
+    <section class="approach" id="enfoque" aria-labelledby="approach-title">
+      <div class="wrap section approach-inner">
+        <div class="approach-copy">
+          <p class="eyebrow section-kicker"><span>02</span> Enfoque bioclimático</p>
+          <h2 id="approach-title">Diseñar con <em>el clima.</em></h2>
+          <p class="approach-intro">En Paraguay, una casa puede ganar confort desde el plano. Estudiamos cómo entra el sol, por dónde corre el aire y qué sombras ofrece el terreno para tomar mejores decisiones desde el inicio.</p>
+          <dl class="principles">
+            <div><dt><span>01</span> Orientación y sombra</dt><dd>Aprovechar la luz natural y proteger los espacios del sol intenso.</dd></div>
+            <div><dt><span>02</span> Ventilación natural</dt><dd>Ubicar las aberturas para favorecer el paso del aire.</dd></div>
+            <div><dt><span>03</span> Materiales y paisaje</dt><dd>Elegir sistemas y materiales según las condiciones de cada sitio.</dd></div>
+          </dl>
+        </div>
+        <figure class="approach-figure">
+          <img src="assets/slide5.webp" width="1500" height="516" alt="Arquitectura de ladrillo y madera entre árboles, del portafolio de Biocons" loading="lazy" decoding="async">
+          <figcaption class="eyebrow"><span>Materialidad y paisaje</span><span>Biocons / Paraguay</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="wrap section services" id="servicios" aria-labelledby="service-title">
+      <p class="eyebrow section-kicker"><span>03</span> Servicios</p>
+      <div class="section-heading">
+        <h2 id="service-title">Del terreno <em>a la obra.</em></h2>
+        <p>El estudio acompaña el diseño, la planificación y la construcción. También evalúa inmuebles existentes para orientar reformas y resolver problemas constructivos.</p>
+      </div>
+      <div class="service-list">
+        <details name="servicios" open>
+          <summary><span class="eyebrow">01</span><h3>Proyecto arquitectónico</h3><span class="expand" aria-hidden="true"></span></summary>
+          <div class="service-body"><p>Estudio del terreno, anteproyecto y documentación de arquitectura para viviendas, edificios y otros programas.</p><a class="text-link" href="https://www.biocons.com.py/V1/cat/proyectos/" target="_blank" rel="noopener">Explorar el servicio <svg aria-hidden="true"><use href="#diagonal"/></svg></a></div>
+        </details>
+        <details name="servicios">
+          <summary><span class="eyebrow">02</span><h3>Construcción</h3><span class="expand" aria-hidden="true"></span></summary>
+          <div class="service-body"><p>Planificación y ejecución de obras, con atención a la coordinación de etapas y a las decisiones constructivas del proyecto.</p><a class="text-link" href="https://www.biocons.com.py/V1/cat/construccion/" target="_blank" rel="noopener">Explorar el servicio <svg aria-hidden="true"><use href="#diagonal"/></svg></a></div>
+        </details>
+        <details name="servicios">
+          <summary><span class="eyebrow">03</span><h3>Reformas y ampliaciones</h3><span class="expand" aria-hidden="true"></span></summary>
+          <div class="service-body"><p>Evaluación de lo existente para reorganizar, ampliar o renovar espacios según sus nuevos usos.</p><a class="text-link" href="#nazareth" data-project-link="nazareth">Ver reforma en Nazareth <svg aria-hidden="true"><use href="#diagonal"/></svg></a></div>
+        </details>
+        <details name="servicios">
+          <summary><span class="eyebrow">04</span><h3>Consultoría técnica</h3><span class="expand" aria-hidden="true"></span></summary>
+          <div class="service-body"><p>Asesoramiento para identificar el origen de problemas constructivos y definir alternativas de intervención.</p><a class="text-link" href="https://www.biocons.com.py/V1/consultoria-en-patologias-constructivas-problemas-constructivos/" target="_blank" rel="noopener">Consultar sobre patologías <svg aria-hidden="true"><use href="#diagonal"/></svg></a></div>
+        </details>
+        <details name="servicios">
+          <summary><span class="eyebrow">05</span><h3>Documentación para crédito de vivienda</h3><span class="expand" aria-hidden="true"></span></summary>
+          <div class="service-body"><p>Preparación de planos y presupuesto de construcción para presentar una solicitud de préstamo hipotecario para vivienda.</p><a class="text-link" href="https://www.biocons.com.py/V1/proyectos-arquitectonicos-de-vivienda-casa-para-prestamos-hipotecarios-afd-diseno-de-planos-y-presupuesto-de-construccion/" target="_blank" rel="noopener">Ver información de financiamiento <svg aria-hidden="true"><use href="#diagonal"/></svg></a></div>
+        </details>
+      </div>
+    </section>
+
+    <section class="studio" id="estudio" aria-labelledby="studio-title">
+      <div class="wrap section studio-inner">
+        <div class="studio-image"><img src="assets/slide1.webp" width="1500" height="516" alt="Detalle de una fachada con celosía de ladrillo del portafolio de Biocons" loading="lazy" decoding="async"></div>
+        <div class="studio-copy">
+          <p class="eyebrow section-kicker"><span>04</span> El estudio</p>
+          <h2 id="studio-title">Biocons <em>Arquitectos.</em></h2>
+          <p>Somos un estudio de arquitectura y construcción con sede en Asunción. Trabajamos con las condiciones de cada terreno y las necesidades de quienes van a habitarlo, desde el primer planteo hasta la obra.</p>
+          <p>En los proyectos del portafolio participan los arquitectos Nicolás Morales Saravia y Cheli Sakoda.</p>
+          <a class="text-link" href="https://www.biocons.com.py/V1/cat/blog/" target="_blank" rel="noopener">Leer el blog del estudio <svg aria-hidden="true"><use href="#diagonal"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto" aria-labelledby="contact-title">
+      <div class="wrap section contact-inner">
+        <div>
+          <p class="eyebrow section-kicker"><span>05</span> Contacto</p>
+          <h2 id="contact-title">Contanos qué querés <em>construir.</em></h2>
+          <p>Escribinos para conversar sobre tu terreno, una reforma o la idea que querés llevar a obra.</p>
+          <address>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=Tte.+Jara+Troche+347,+Asunci%C3%B3n,+Paraguay" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#pin"/></svg> Tte. Jara Troche 347, Asunción</a>
+            <a href="tel:+59521203975">+595 21 203 975</a>
+          </address>
+        </div>
+        <div class="contact-card">
+          <p class="eyebrow"><span class="status-dot"></span> Contacto directo</p>
+          <h3>Empezá por WhatsApp.</h3>
+          <label for="contact-topic" hidden>Motivo de consulta</label>
+          <select id="contact-topic" hidden>
+            <option value="">Seleccioná el motivo de tu consulta</option>
+            <option>Proyecto arquitectónico</option>
+            <option>Construcción</option>
+            <option>Reforma o ampliación</option>
+            <option>Consultoría técnica</option>
+            <option>Documentación para crédito de vivienda</option>
+          </select>
+          <a id="whatsapp" class="button button-dark" href="https://wa.me/595991902202" target="_blank" rel="noopener">Abrir WhatsApp <svg aria-hidden="true"><use href="#diagonal"/></svg></a>
+          <p class="contact-note">+595 991 902 202</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <a class="brand" href="#inicio" aria-label="Volver al inicio"><img src="assets/biocons.png" width="254" height="76" alt="Biocons Arquitectos" loading="lazy"></a>
+      <div class="socials" aria-label="Redes sociales">
+        <a href="https://www.instagram.com/bioconsarquitectos/" target="_blank" rel="noopener">Instagram <svg aria-hidden="true"><use href="#diagonal"/></svg></a>
+        <a href="https://www.facebook.com/biocons.arquitectos/" target="_blank" rel="noopener">Facebook <svg aria-hidden="true"><use href="#diagonal"/></svg></a>
+        <a href="https://www.tiktok.com/@bioconsarquitectos" target="_blank" rel="noopener">TikTok <svg aria-hidden="true"><use href="#diagonal"/></svg></a>
+      </div>
+      <span class="eyebrow footer-note">Asunción · Paraguay</span>
+    </div>
+  </footer>
+
+  <dialog id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-inner">
+      <form method="dialog"><button class="round dialog-close" aria-label="Cerrar ficha"><svg aria-hidden="true"><use href="#close"/></svg></button></form>
+      <img id="dialog-image" width="1376" height="768" alt="">
+      <div class="dialog-copy">
+        <p class="eyebrow" id="dialog-category"></p>
+        <h2 id="dialog-title"></h2>
+        <dl class="dialog-facts">
+          <div><dt>Ubicación</dt><dd id="dialog-location"></dd></div>
+          <div><dt>Superficie publicada</dt><dd id="dialog-area"></dd></div>
+        </dl>
+        <p id="dialog-description"></p>
+        <a class="text-link" id="dialog-source" target="_blank" rel="noopener">Ver proyecto en el sitio de Biocons <svg aria-hidden="true"><use href="#diagonal"/></svg></a>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>
